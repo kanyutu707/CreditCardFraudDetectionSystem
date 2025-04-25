@@ -58,7 +58,7 @@ function App() {
     }
     
     try {
-      const response = await fetch('http://localhost:9030/predict', {
+      const response = await fetch('https://creditbackend-z22w.onrender.com/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
